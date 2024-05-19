@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Car Store</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <img src="./assets/img/car-electric.png" alt="Electric Cars Logo">
+            <span>Electric Cars</span>
+        </div>
+        <ul class="sidebar-menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Catálogo</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <div class="sidebar-footer desktop-only">
+            <p>Todos los derechos reservados</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </aside>
+    <section class="filter-section">
+        <label for="order">Ordenar Por:</label>
+        <select id="order">
+            <option value="precio">Precio</option>
+            <option value="popularidad">Popularidad</option>
+        </select>
+    </section>
+    <main class="main-section">
+        <div class="products-grid">
+            <!-- Repetir la tarjeta del producto varias veces -->
+            <div class="product-card">
+                <img src="./assets/img/auto1.jpg" alt="City Car">
+                <p>Model: City Car</p>
+                <button>Ver más</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/img/auto2.jpg" alt="City Car">
+                <p>Model: City Car</p>
+                <button>Ver más</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/img/auto1.jpg" alt="City Car">
+                <p>Model: City Car</p>
+                <button>Ver más</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/img/auto2.jpg" alt="City Car">
+                <p>Model: City Car</p>
+                <button>Ver más</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/img/auto1.jpg" alt="City Car">
+                <p>Model: City Car</p>
+                <button>Ver más</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/img/auto2.jpg" alt="City Car">
+                <p>Model: City Car</p>
+                <button>Ver más</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/img/auto1.jpg" alt="City Car">
+                <p>Model: City Car</p>
+                <button>Ver más</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/img/auto2.jpg" alt="City Car">
+                <p>Model: City Car</p>
+                <button>Ver más</button>
+            </div>
+            <!-- ... más tarjetas de producto ... -->
+        </div>
+    </main>
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">&raquo;</a>
+    </div>
+    <footer class="main-footer mobile-only">
+        <p>Todos los derechos reservados</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
